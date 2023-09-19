@@ -177,14 +177,15 @@
         </div>
 </div>
 
-<div class="burger-m" style="display: none;">
+<div class="burger-m">
 <div class="burger-close"></div>
   <div class="container">
           <div class="burger-m__contacts">
-          <li class="header_phone"><p style="display:block;"><span class="fa fa-phone"></span><a style="display:inline-block;" href="tel:+74956649014">+7 (495) 664-90-14</a></p><p style="display:block;"><span class="fa fa-phone"></span><a style="display:inline-block;" href="tel:+79266074688">+7 (926)-607-46-88</a></p></li>
-  <li><a style="display: flex; align-items: center; justify-content: center; margin-top: 15px;" href="mailto:info@ksg-group.ru"><img src="<?php bloginfo('template_url'); ?>/images/ksg/envelop.gif" height="20" >&nbsp;<p>info@ksg-group.ru</p></a>
+            <div class="header_phone"><p style="display:block;"><span class="fa fa-phone"></span><a style="display:inline-block;" href="tel:+74956649014">+7 (495) 664-90-14</a></p><p style="display:block;"><span class="fa fa-phone"></span><a style="display:inline-block;" href="tel:+79266074688">+7 (926)-607-46-88</a></p></div>
+            <div>
+              <a style="" class="burger-m__mail" href="mailto:info@ksg-group.ru"><img src="<?php bloginfo('template_url'); ?>/images/ksg/envelop.gif" height="20" >&nbsp;<span>info@ksg-group.ru</span></a>
+            </div>
           </div>
-          
           <ul class="burger-menu">
           <?php $m2 = wp_get_nav_menu_items(15);
                 if ($m2):
@@ -199,5 +200,5 @@
             <li class=""><a href="/c/<?php echo $category->slug;?>/"><?php echo $category->name ?></a>
             <?php endif; endforeach;  ?>
           </ul>
-
+            </div>
   </div>
