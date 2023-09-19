@@ -297,40 +297,40 @@ function IsIndexBot(){
 }
 
 
-add_action( 'wp', 'force_404' );
-function force_404() {
-	global $wp_query;
-	$arr = explode('/', $_SERVER['REQUEST_URI']);
-	$exist = [];
-	foreach($arr AS $code){
-		if(!$code)continue;
-		$code = trim($code);
-		if(in_array($code, $exist)){
-			$wp_query->set_404();
-			status_header(404);
-			die();
-		}
+// add_action( 'wp', 'force_404' );
+// function force_404() {
+// 	global $wp_query;
+// 	$arr = explode('/', $_SERVER['REQUEST_URI']);
+// 	$exist = [];
+// 	foreach($arr AS $code){
+// 		if(!$code)continue;
+// 		$code = trim($code);
+// 		if(in_array($code, $exist)){
+// 			$wp_query->set_404();
+// 			status_header(404);
+// 			die();
+// 		}
 		
 		
-		$exist[] = $code;   
-	}
+// 		$exist[] = $code;   
+// 	}
 	
-	if($arr[1] === 'c'){
-		checkSectionPath($arr);
-	}
+// 	if($arr[1] === 'c'){
+// 		checkSectionPath($arr);
+// 	}
 	
-	if($_SERVER['REQUEST_URI'] === '/tolchina/0/'){
-		$wp_query->set_404();
-		status_header(404);
-		die();
-	}
-	else if(stripos($_SERVER['REQUEST_URI'], 'index.php') !== false
-	|| $_SERVER['REQUEST_URI'] !== mb_strtolower($_SERVER['REQUEST_URI'])){
-		$wp_query->set_404();
-		status_header(404);
-		die();
-	}
-}
+// 	if($_SERVER['REQUEST_URI'] === '/tolchina/0/'){
+// 		$wp_query->set_404();
+// 		status_header(404);
+// 		die();
+// 	}
+// 	else if(stripos($_SERVER['REQUEST_URI'], 'index.php') !== false
+// 	|| $_SERVER['REQUEST_URI'] !== mb_strtolower($_SERVER['REQUEST_URI'])){
+// 		$wp_query->set_404();
+// 		status_header(404);
+// 		die();
+// 	}
+// }
 
 function pixel(){
 	return 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
