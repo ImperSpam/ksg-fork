@@ -1,0 +1,68 @@
+
+a , a:hover {
+	color:#1a4050;
+	
+}
+
+
+html .btn_c  ,  html .ui-widget-header , html #header .cart_menu .cheout_row .checkout_btn#header .cart_menu ul li .price , html  #header .cart_menu .cheout_row .checkout_btn  , html #content .cart_btn a.next_btn , 
+html #content .tag_c ul li a.tag:hover , html .btn_c:hover  , html .sidebar .side_box_3 ul li a:hover ,
+#header .cart_menu .cheout_row .checkout_btn:hover
+{
+	background:#1a4050;
+		text-shadow:none !important;
+	
+	
+	
+}
+
+html .caret ,
+ html #header .hed_right ul li span , 
+ html #header .right_menu > ul > li > a span:hover
+  ,html #nav .navbar-nav > li a:hover 
+, html #nav .navbar-nav > li ul li a ,
+html .home-slider .flex-control-nav .fa:hover,
+html .banner_nav .scroll_down .fa-arrow-circle-down ,
+html .fa-arrow-circle-right , 
+html #content .h_row_2 .fa-arrow-circle-right ,
+html #content .main_box .desc .price , 
+html #footer .f_mid p a ,
+html #footer .f_bot .f_bot_right a ,
+html #content .slider .slider_desc .price_c .old_price,
+html #content .page_c ul li.active a, #content .page_c ul li a:hover , 
+html #content a.backtocate .fa ,
+html #content .pro_main_c .desc_blk .desc_blk_inn ul li .fa-smile-o , 
+html #content .pro_main_c .desc_blk .review_row a.add_rew , 
+html #nav .navbar-nav > li .new_item .price ,
+html #header .cart_menu ul li .price , 
+html #header .acc_menu a.sign_up , 
+html #content .cart_tbl ul li .price ,
+html #content .infor_c .infor_c_inn p a ,
+html #content .blog_blk .blog_desc > h5 a:hover , 
+html #content .comment_c h5.sub_title strong
+{
+color:#1a4050;
+	text-shadow:none !important;
+}
+ 
+
+
+html  .category-slider .flex-control-paging li a.flex-active{
+	background-color: #1a4050  !important;
+}
+
+html  #content .main_box .box_1 a.info_btn , html .banner .line_1  {
+    background: none repeat scroll 0 0 #e8920c;
+}
+
+html  .btn_c.btn_c2 , .checkout_btn{
+	background-color: #e8920c;
+
+}
+
+
+
+
+html  #content .blog_blk .blog_desc_inn p{
+	border-color:#1a4050;
+}

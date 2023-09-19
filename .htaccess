@@ -1,0 +1,558 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	
+	RewriteCond %{THE_REQUEST} (\/{2,})
+	RewriteRule (.*) https://ksg-group.ru/$1 [R=301,L]
+	
+#Categories
+	Redirect 301 /c/ocinkovka/metalloprokat/truby-metalloprokat/vgp-elektrosvarnye-truby-truby-metalloprokat/truby-vgp-ocinkovannye-gost-3262-75-vgp-elektrosvarnye-truby-truby-metalloprokat/ https://ksg-group.ru/c/ocinkovka/metalloprokat/truby-metalloprokat/vgp-elektro-truby/vgp-ocin-gost-3262/
+	Redirect 301 /c/nerzhaveyushhaya-stal/shestigrannik-nerzhaveyushhij/shestigrannik-nerzhaveyushhij-beznikelevyj-zharoprochnyj-krug-kvadrat-shestigrannik-nerzhaveyushhaya-stal/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/shestigrannik-nerzhaveyushhij/shestigra-nerzh-beznik/
+	Redirect 301 /c/metaloprokat/truby__/truby-nerzhaveyushhie-truby/truby-nerzhaveyushhie-besshovnye-truby-nerzhaveyushhie-truby/ https://ksg-group.ru/c/metaloprokat/truby__/truby-nerzhaveyushhie-truby/truby-nerzhaveyushhie-be/
+	Redirect 301 /c/nerzhaveyushhaya-stal/krug-nerzhaveyushhij/krug-nerzhaveyushhij-beznikelevyj-zharoprochnyj-krug-kvadrat-shestigrannik-nerzhaveyushhaya-stal/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/krug-nerzhaveyushhij/krug-nerzhaveyushhij-beznikelevyj-zharo/
+	Redirect 301 /c/nerzhaveyushhaya-stal/kvadrat-nerzhaveyushhij/kvadrat-nerzhaveyushhij-nikelsoderzhashhij-krug-kvadrat-shestigrannik-nerzhaveyushhaya-stal/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/kvadrat-nerzhaveyushhij/kvadrat-nerzhaveyushhij-nikelsoderzha/
+	Redirect 301 /c/nerzhaveyushhaya-stal/ugolok-nerzhaveyushhij/ugolok-nerzhaveyushhij-nikelsoderzhashhij-polosa-ugolok/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/ugolok-nerzhaveyushhij/ugolok-nerzhaveyushhij/
+	Redirect 301 /c/nerzhaveyushhaya-stal/truby-nerzhaveyushhie/truby-nerzhaveyushhie-elektrosvarnye-aisi-kvadratnye-truby-nerzhavejka/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/truby-nerzhaveyushhie/truby-nerzhaveyushhie-elektr/
+	Redirect 301 /c/nerzhaveyushhaya-stal/truby-nerzhaveyushhie/truby-nerzhaveyushhie-elektrosvarnye-aisi-pryamougolnye-truby-nerzhavejka/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/truby-nerzhaveyushhie/truby-nerzhaveyushhie-elektros/
+	Redirect 301 /c/metaloprokat/truby__/truby-nerzhaveyushhie-truby/truby-nerzhaveyushhie-elektrosvarnye-truby-nerzhaveyushhie-truby/ https://ksg-group.ru/c/metaloprokat/truby__/truby-nerzhaveyushhie-truby/truby-nerzhaveyushhie-elek/
+	Redirect 301 /c/nerzhaveyushhaya-stal/krug-nerzhaveyushhij/krug-nerzhaveyushhij-nikelsoderzhashhij-krug-kvadrat-shestigrannik-nerzhaveyushhaya-stal/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/krug-nerzhaveyushhij/krug-nerzhaveyushhij-nikelsoderzhash/
+	Redirect 301 /c/ocinkovka/metalloprokat/truby-metalloprokat/vgp-elektrosvarnye-truby-truby-metalloprokat/truby-elektrosvarnye-ocinkovannye-vgp-elektrosvarnye-truby-truby-metalloprokat/ https://ksg-group.ru/c/ocinkovka/metalloprokat/truby-metalloprokat/vgp-elektro-truby/elektro-ocink/
+	Redirect 301 /c/nerzhaveyushhaya-stal/polosa-nerzhaveyushhaya/polosa-nerzhaveyushhaya-nikelsoderzhashhaya-polosa-ugolok/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/polosa-nerzhaveyushhaya/polosa-nerzhaveyushhaya/
+	Redirect 301 /c/nerzhaveyushhaya-stal/truby-nerzhaveyushhie/truby-nerzhaveyushhie-besshovnye-truby-nerzhavejka/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/truby-nerzhaveyushhie/truby-nerzhaveyushhi/
+	Redirect 301 /c/metaloprokat/truby__/truby-nerzhaveyushhie-truby/truby-nerzhaveyushhie-elektrosvarnye-aisi-kvadratnye-truby-nerzhaveyushhie-truby/ https://ksg-group.ru/c/metaloprokat/truby__/truby-nerzhaveyushhie-truby/truby-nerzhaveyushhie-elektrosva/
+	Redirect 301 /c/metaloprokat/truby__/truby-nerzhaveyushhie-truby/truby-nerzhaveyushhie-elektrosvarnye-aisi-pryamougolnye-truby-nerzhaveyushhie-truby/ https://ksg-group.ru/c/metaloprokat/truby__/truby-nerzhaveyushhie-truby/truby-nerzhaveyushhie-elektrosvarn/
+	Redirect 301 /c/metaloprokat/listovoj-prokat/list-nerzhaveyushhij-listovoj-prokat/list-nerzhaveyushhij-nikelsoderzhashhij/ https://ksg-group.ru/c/metaloprokat/listovoj-prokat/list-nerzhaveyushhij-listovoj-prokat/list-nerzhaveyus/
+	Redirect 301 /c/nerzhaveyushhaya-stal/shestigrannik-nerzhaveyushhij/shestigrannik-nerzhaveyushhij-nikelsoderzhashhij-krug-kvadrat-shestigrannik-nerzhaveyushhaya-stal/ https://ksg-group.ru/c/nerzhaveyushhaya-stal/shestigrannik-nerzhaveyushhij/shest-nerzh-nikel/
+	Redirect 301 /c/metaloprokat/listovoj-prokat/prosechno-vytyazhnoj-list-pvl/prosechno-vytyazhnoj-list-pvl-prosechno-vytyazhnoj-list-pvl/ https://ksg-group.ru/c/metaloprokat/listovoj-prokat/prosechno-vytyazhnoj-list-pvl/prosechno-vytyazhnoj-lis/
+	Redirect 301 /c/ocinkovka/metalloprokat/listovoj-prokat-metalloprokat/profnastil-listovoj-prokat-metalloprokat/ https://ksg-group.ru/c/ocinkovka/metalloprokat/listovoj-prokat/profnastil-listo/
+	Redirect 301 /c/metaloprokat/kachestvennye-stali/instrumentalnaya-i-konstrukcionnaya/shestigrannik-goryachekatannyj-konstrukcionnyj/ https://ksg-group.ru/c/metaloprokat/kachestvennye-stali/instrumentalnaya-i-konstrukcionnaya/shestigrannik-gorya/
+	Redirect 301 /c/metaloprokat/sortovoj-prokat/polosa-kvadrat/polosa-nerzhaveyushhaya-nikelsoderzhashhaya-polosa-kvadrat/ https://ksg-group.ru/c/metaloprokat/sortovoj-prokat/polosa-kvadrat/polosa-nerzhaveyushhaya-/
+	Redirect 301 /c/metaloprokat/listovoj-prokat/prosechno-vytyazhnoj-list-pvl/list-riflenyj-prosechno-vytyazhnoj-list-pvl/ https://ksg-group.ru/c/metaloprokat/listovoj-prokat/prosechno-vytyazhnoj-list-pvl/list-riflenyj-pros/
+	Redirect 301 /c/metaloprokat/metsyre/provoloka-kanaty-metsyre/provoloka-nerzhaveyushhaya-provoloka-kanaty-metsyre/ https://ksg-group.ru/c/metaloprokat/metsyre/provoloka-kanaty-metsyre/provoloka-nerzhaveyus/
+	Redirect 301 /c/metaloprokat/metsyre/provoloka-kanaty-metsyre/provoloka-torgovaya-obyknovennogo-kachestva-provoloka-kanaty-metsyre/ https://ksg-group.ru/c/metaloprokat/metsyre/provoloka-kanaty-metsyre/provoloka-torgovaya-obyknove/
+	
+	
+#Products
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-75-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-75/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-75/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-90-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-90/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-90/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-22-dlina-2000-6000-marka-12x18n10t-razmer-22/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-22/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-70-dlina-2000-6000-marka-20x13-razmer-70/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-70/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-30-dlina-2000-6000-marka-14x17n2-razmer-30/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-50-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-50/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-10-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-10/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-22-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-22/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-22/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-30-dlina-2000-6000-marka-40x13-razmer-30/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-120-dlina-2000-6000-marka-40x13-razmer-120/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-120/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-55-dlina-2000-6000-marka-14x17n2-razmer-55/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-55/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-35-dlina-2000-6000-marka-12x18n10t-razmer-35/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-35/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-2-imp-shlif-dlina-6000-marka-aisi-201-razmer-30/ https://ksg-group.ru/p/a-6000-marka-aisi-201-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-10-dlina-2000-6000-marka-95x18-razmer-10/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-28-dlina-2000-6000-marka-30x13-razmer-28/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-28/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-95-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-95/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-95/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-52-dlina-2000-6000-marka-20x13-razmer-52/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-52/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-120-din1013-obtochennyj-dlina-6000-marka-aisi-304-08x18n10-razmer-120/ https://ksg-group.ru/p/6000-marka-aisi-304-08x18n10-razmer-120/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-100-dlina-2000-6000-marka-12x18n10t-razmer-100/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-100/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-220-dlina-2000-6000-marka-30x13-razmer-220/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-220/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-190-dlina-2000-6000-marka-14x17n2-razmer-190/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-190/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-120-dlina-2000-6000-marka-12x18n10t-razmer-120/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-120/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-28-dlina-2000-6000-marka-95x18-razmer-28/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-28/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-139-7x3-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-1397/ https://ksg-group.ru/p/a-aisi-304-08x18n10-razmer-1397/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-50-8x2-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-508/ https://ksg-group.ru/p/a-aisi-304-08x18n10-razmer-508/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-3-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-3/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-3/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-60x40x1-5-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/00-marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/ugolok-nerzhaveyushhij-nikelsoderzhashhij-100x10-dlina-6000-marka-aisi-304-08x18n10-razmer-100/ https://ksg-group.ru/p/ka-aisi-304-08x18n10-razmer-100/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-60x40x2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-42-dlina-2000-6000-marka-14x17n2-razmer-42/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-42/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-20-h9-kalibrovannyj-dlina-3000-marka-aisi-316ti-10x17n13m2t-razmer-20/ https://ksg-group.ru/p/marka-aisi-316ti-10x17n13m2t-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-60-dlina-2000-6000-marka-20x13-razmer-60/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-60/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-32-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-32/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-32/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-50x3-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-50/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-50/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-50x25x2-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-50/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-50/
+	Redirect 301 /p/ugolok-nerzhaveyushhij-nikelsoderzhashhij-100x6-dlina-6000-marka-aisi-304-08x18n10-razmer-100/ https://ksg-group.ru/p/ka-aisi-304-08x18n10-razmer-100/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-85-dlina-2000-6000-marka-95x18-razmer-85/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-85/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-160-dlina-2000-6000-marka-14x17n2-razmer-160/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-160/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-25/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-25/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-27-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-27/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-27/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-26-dlina-2000-6000-marka-20x13-razmer-26/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-26/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-25-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-25/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-25/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-40x1-2-imp-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-30x15x1-5-shlif-dlina-6000-marka-aisi-201-razmer-30/ https://ksg-group.ru/p/na-6000-marka-aisi-201-razmer-30/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-14-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-14/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-14/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-36-dlina-2000-6000-marka-30x13-razmer-36/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-36/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-25-dlina-2000-6000-marka-40x13-razmer-25/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-90-dlina-2000-6000-marka-14x17n2-razmer-90/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-90/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-16-dlina-2000-6000-marka-12x18n10t-razmer-16/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-16/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-4-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-4/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-4/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-10-dlina-2000-6000-marka-30x13-razmer-10/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-140-dlina-2000-6000-marka-12x18n10t-razmer-140/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-140/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-38-dlina-2000-6000-marka-40x13-razmer-38/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-38/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-40x20x1-5-shlif-dlina-6000-marka-aisi-201-razmer-40/ https://ksg-group.ru/p/na-6000-marka-aisi-201-razmer-40/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-10-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-10/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-5-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-5/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-5/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-210-dlina-2000-6000-marka-20x13-razmer-210/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-210/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-20x2-imp-shlif-dlina-6000-marka-aisi-201-razmer-20/ https://ksg-group.ru/p/6000-marka-aisi-201-razmer-20/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x1-imp-shlif-dlina-6000-marka-aisi-201-razmer-25/ https://ksg-group.ru/p/6000-marka-aisi-201-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-16-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-16/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-16/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-18-dlina-2000-6000-marka-95x18-razmer-18/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-18/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-180-dlina-2000-6000-marka-12x18n10t-razmer-180/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-180/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-35-h9-kalibrovannyj-dlina-3000-marka-aisi-316ti-10x17n13m2t-razmer-35/ https://ksg-group.ru/p/marka-aisi-316ti-10x17n13m2t-razmer-35/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-80-dlina-2000-6000-marka-30x13-razmer-80/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-80/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-34-dlina-2000-6000-marka-20x13-razmer-34/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-34/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-30-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-30/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-12-dlina-2000-6000-marka-40x13-razmer-12/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-12/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-200-dlina-2000-6000-marka-20x13-razmer-200/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-200/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-95-dlina-2000-6000-marka-30x13-razmer-95/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-95/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-27-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-27/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-27/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-75-dlina-2000-6000-marka-12x18n10t-razmer-75/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-75/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-85-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-85/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-85/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-80-dlina-2000-6000-marka-14x17n2-razmer-80/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-80/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-40x20x1-5-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-130-dlina-2000-6000-marka-14x17n2-razmer-130/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-130/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-45-dlina-2000-6000-marka-14x17n2-razmer-45/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-45/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-70-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-70/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-70/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-60-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-60/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-100-dlina-2000-6000-marka-20x13-razmer-100/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-100/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-20x1-2-imp-shlif-dlina-6000-marka-aisi-430-razmer-20/ https://ksg-group.ru/p/a-6000-marka-aisi-430-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-8-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-8/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-8/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-40x1-2-imp-shlif-dlina-6000-marka-aisi-430-razmer-40/ https://ksg-group.ru/p/a-6000-marka-aisi-430-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-230-dlina-2000-6000-marka-30x13-razmer-230/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-230/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-60-dlina-2000-6000-marka-12x18n10t-razmer-60/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-75-dlina-2000-6000-marka-30x13-razmer-75/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-75/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-20-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-20/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-120-dlina-2000-6000-marka-30x13-razmer-120/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-120/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-110-dlina-2000-6000-marka-40x13-razmer-110/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-110/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-200-dlina-2000-6000-marka-30x13-razmer-200/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-200/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-12-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-12/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-12/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-8-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-8/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-8/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-48-dlina-2000-6000-marka-12x18n10t-razmer-48/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-48/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-10-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-10-2/ https://ksg-group.ru/p/a-12x18n10t-aisi-321-razmer-10-2/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-56-dlina-2000-6000-marka-12x18n10t-razmer-56/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-56/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-5-imp-zerk-dlina-6000-marka-aisi-304-08x18n10-razmer-30/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-210-dlina-2000-6000-marka-30x13-razmer-210/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-210/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-5-imp-shlif-dlina-6000-marka-aisi-430-razmer-30/ https://ksg-group.ru/p/a-6000-marka-aisi-430-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-35-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-35/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-35/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-70-h9-kalibrovannyj-dlina-3000-marka-aisi-316ti-10x17n13m2t-razmer-70/ https://ksg-group.ru/p/marka-aisi-316ti-10x17n13m2t-razmer-70/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-80x3-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-80/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-80/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-110-dlina-2000-6000-marka-30x13-razmer-110/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-110/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-16-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-16/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-16/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-25-dlina-2000-6000-marka-95x18-razmer-25/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-52-dlina-2000-6000-marka-12x18n10t-razmer-52/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-52/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-160-dlina-2000-6000-marka-12x18n10t-razmer-160/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-160/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-75-dlina-2000-6000-marka-20x13-razmer-75/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-75/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-40-h9-kalibrovannyj-dlina-3000-marka-aisi-316ti-10x17n13m2t-razmer-40/ https://ksg-group.ru/p/marka-aisi-316ti-10x17n13m2t-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-40-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-40/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-70-dlina-2000-6000-marka-12x18n10t-razmer-70/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-70/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-56-dlina-2000-6000-marka-30x13-razmer-56/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-56/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-18-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-18/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-18/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-18-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-18/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-18/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-80x40x1-5-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-80/ https://ksg-group.ru/p/00-marka-aisi-304-08x18n10-razmer-80/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-100-dlina-2000-6000-marka-30x13-razmer-100/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-100/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-38-dlina-2000-6000-marka-14x17n2-razmer-38/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-38/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-130-dlina-2000-6000-marka-40x13-razmer-130/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-130/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-20-dlina-2000-6000-marka-95x18-razmer-20/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-28-dlina-2000-6000-marka-14x17n2-razmer-28/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-28/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-140-dlina-2000-6000-marka-40x13-razmer-140/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-140/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-38-dlina-2000-6000-marka-12x18n10t-razmer-38/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-38/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-100x60x3-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-100/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-100/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-90-dlina-2000-6000-marka-95x18-razmer-90/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-90/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-56-dlina-2000-6000-marka-40x13-razmer-56/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-56/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-18-dlina-2000-6000-marka-14x17n2-razmer-18/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-18/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-95-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-95/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-95/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-50x2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-50/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-70-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-70/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-70/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-5-imp-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-30/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-70-dlina-2000-6000-marka-30x13-razmer-70/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-70/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-50x25x1-5-shlif-dlina-6000-marka-aisi-430-razmer-50/ https://ksg-group.ru/p/na-6000-marka-aisi-430-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-32-dlina-2000-6000-marka-12x18n10t-razmer-32/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-32/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-6-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-6/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-6/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-60x30x1-5-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-48-dlina-2000-6000-marka-14x17n2-razmer-48/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-48/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-55-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-55/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-55/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-230-din1013-obtochennyj-dlina-4000-6000-marka-aisi-304-08x18n10-razmer-230/ https://ksg-group.ru/p/0-6000-marka-aisi-304-08x18n10-razmer-230/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-30/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-50-dlina-2000-6000-marka-20x13-razmer-50/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-18-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-18/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-18/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-55-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-55/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-55/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-24-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-24/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-24/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-200-dlina-2000-6000-marka-12x18n10t-razmer-200/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-200/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-100-dlina-2000-6000-marka-14x17n2-razmer-100/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-100/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-36-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-36/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-36/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-65-dlina-2000-6000-marka-14x17n2-razmer-65/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-65/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-56-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-56/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-56/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-140-dlina-2000-6000-marka-14x17n2-razmer-140/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-140/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-100-dlina-2000-6000-marka-40x13-razmer-100/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-100/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-14-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-14/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-14/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-30x15x1-5-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-30/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-30/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-5-imp-zerkalo-dlina-6000-marka-aisi-201-razmer-30/ https://ksg-group.ru/p/na-6000-marka-aisi-201-razmer-30/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-40x20x2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-220-dlina-2000-6000-marka-20x13-razmer-220/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-220/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-10-dlina-2000-6000-marka-20x13-razmer-10/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-80-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-80/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-80/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-24-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-24/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-24/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-25-dlina-2000-6000-marka-30x13-razmer-25/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-42-dlina-2000-6000-marka-20x13-razmer-42/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-42/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-14-dlina-2000-6000-marka-40x13-razmer-14/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-14/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-16-dlina-2000-6000-marka-95x18-razmer-16/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-16/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-30-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-30/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-36-dlina-2000-6000-marka-14x17n2-razmer-36/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-36/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-40x1-5-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-60x30x1-5-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/00-marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-80-dlina-2000-6000-marka-40x13-razmer-80/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-80/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-40-dlina-2000-6000-marka-14x17n2-razmer-40/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-24-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-24/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-24/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-130-din1013-obtochennyj-dlina-6000-marka-aisi-304-08x18n10-razmer-130/ https://ksg-group.ru/p/6000-marka-aisi-304-08x18n10-razmer-130/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-210-dlina-2000-6000-marka-12x18n10t-razmer-210/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-210/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-10x1-imp-shlif-dlina-6000-marka-aisi-201-razmer-10/ https://ksg-group.ru/p/6000-marka-aisi-201-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-65-dlina-2000-6000-marka-95x18-razmer-65/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-65/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-6-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-6/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-6/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-90-dlina-2000-6000-marka-12x18n10t-razmer-90/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-90/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-10-dlina-2000-6000-marka-40x13-razmer-10/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-75-dlina-2000-6000-marka-95x18-razmer-75/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-75/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-56-dlina-2000-6000-marka-14x17n2-razmer-56/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-56/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-110-din1013-obtochennyj-dlina-6000-marka-aisi-321-12x18n10t-razmer-110/ https://ksg-group.ru/p/6000-marka-aisi-321-12x18n10t-razmer-110/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-65-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-65/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-65/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-50-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-50/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-32-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-32/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-32/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-18-dlina-2000-6000-marka-20x13-razmer-18/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-18/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-45-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-45/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-45/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-80-dlina-2000-6000-marka-20x13-razmer-80/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-80/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-60x30x1-5-shlifovannaya-dlina-6000-marka-aisi-201-razmer-60/ https://ksg-group.ru/p/lina-6000-marka-aisi-201-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-40-dlina-2000-6000-marka-30x13-razmer-40/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-40/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-19-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-19/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-19/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-16-dlina-2000-6000-marka-20x13-razmer-16/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-16/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-41-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-41/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-41/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-4-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-4/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-4/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-95-dlina-2000-6000-marka-40x13-razmer-95/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-95/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-2-imp-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-30/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-24-dlina-2000-6000-marka-14x17n2-razmer-24/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-24/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-20-dlina-2000-6000-marka-14x17n2-razmer-20/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-40-dlina-2000-6000-marka-20x13-razmer-40/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-80-dlina-2000-6000-marka-95x18-razmer-80/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-80/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-14-dlina-2000-6000-marka-20x13-razmer-14/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-14/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-18-dlina-2000-6000-marka-40x13-razmer-18/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-18/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x1-2-imp-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-25/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-12-dlina-2000-6000-marka-20x13-razmer-12/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-12/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-17-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-17/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-17/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-170-dlina-2000-6000-marka-12x18n10t-razmer-170/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-170/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-16-dlina-2000-6000-marka-30x13-razmer-16/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-16/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x1-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-25/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-105-din1013-obtochennyj-dlina-6000-marka-aisi-304-08x18n10-razmer-105/ https://ksg-group.ru/p/6000-marka-aisi-304-08x18n10-razmer-105/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-48-dlina-2000-6000-marka-40x13-razmer-48/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-48/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-17-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-17/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-17/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-65-dlina-2000-6000-marka-20x13-razmer-65/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-65/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-40x20x1-5-zerkalo-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-30-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-30/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-30/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-20x2-imp-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-20/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-20/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-40x20x1-2-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-10-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-10/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-10/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-22-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-22/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-22/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-12-dlina-2000-6000-marka-14x17n2-razmer-12/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-12/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-50-h9-kalibrovannyj-dlina-3000-marka-aisi-316ti-10x17n13m2t-razmer-50/ https://ksg-group.ru/p/marka-aisi-316ti-10x17n13m2t-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-12-dlina-2000-6000-marka-12x18n10t-razmer-12/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-12/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-12-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-12/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-12/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-20-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-20/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-65-dlina-2000-6000-marka-30x13-razmer-65/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-65/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-115-dlina-2000-6000-marka-12x18n10t-razmer-115/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-115/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-80x40x1-5-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-80/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-80/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-50x1-5-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-50/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-42-dlina-2000-6000-marka-40x13-razmer-42/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-42/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-40x2-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/arka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-30-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-30/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-30/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-2-imp-shlif-dlina-6000-marka-aisi-430-razmer-30/ https://ksg-group.ru/p/a-6000-marka-aisi-430-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-40-dlina-2000-6000-marka-40x13-razmer-40/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-32-dlina-2000-6000-marka-14x17n2-razmer-32/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-32/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-120-dlina-2000-6000-marka-95x18-razmer-120/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-120/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-50-dlina-2000-6000-marka-95x18-razmer-50/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-50-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-50/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-16-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-16/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-16/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-22-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-22/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-22/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-140-dlina-2000-6000-marka-20x13-razmer-140/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-140/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-12-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-12/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-12/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-100x3-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-100/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-100/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x1-2-imp-shlif-dlina-6000-marka-aisi-201-razmer-25/ https://ksg-group.ru/p/a-6000-marka-aisi-201-razmer-25/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x2-imp-zerk-dlina-6000-marka-aisi-304-08x18n10-razmer-25/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-25/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-40x20x1-2-shlif-dlina-6000-marka-aisi-430-razmer-40/ https://ksg-group.ru/p/na-6000-marka-aisi-430-razmer-40/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-19-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-19/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-19/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-160-din1013-obtochennyj-dlina-6000-marka-aisi-304-08x18n10-razmer-160/ https://ksg-group.ru/p/6000-marka-aisi-304-08x18n10-razmer-160/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-52-dlina-2000-6000-marka-40x13-razmer-52/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-52/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-42-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-42/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-42/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-32-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-32/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-32/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-250-dlina-2000-6000-marka-20x13-razmer-250/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-250/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-20x1-2-imp-shlif-dlina-6000-marka-aisi-201-razmer-20/ https://ksg-group.ru/p/a-6000-marka-aisi-201-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-32-dlina-2000-6000-marka-30x13-razmer-32/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-32/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-250-din1013-obtochennyj-dlina-4000-6000-marka-aisi-321-12x18n10t-razmer-250/ https://ksg-group.ru/p/6000-marka-aisi-321-12x18n10t-razmer-250/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-65-dlina-2000-6000-marka-40x13-razmer-65/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-65/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-28-dlina-2000-6000-marka-12x18n10t-razmer-28/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-28/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-6-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-6/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-6/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-125-dlina-2000-6000-marka-12x18n10t-razmer-125/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-125/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-15-dlina-2000-6000-marka-12x18n10t-razmer-15/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-15/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-120-dlina-2000-6000-marka-14x17n2-razmer-120/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-120/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-45-dlina-2000-6000-marka-30x13-razmer-45/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-45/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-10-dlina-2000-6000-marka-12x18n10t-razmer-10/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-45-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-45/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-45/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-16-dlina-2000-6000-marka-14x17n2-razmer-16/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-16/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-34-dlina-2000-6000-marka-40x13-razmer-34/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-34/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-150-dlina-2000-6000-marka-12x18n10t-razmer-150/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-150/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-60-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-60/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-60/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-36-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-36/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-36/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-26-dlina-2000-6000-marka-40x13-razmer-26/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-26/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-35-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-35/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-35/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-150-dlina-2000-6000-marka-30x13-razmer-150/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-150/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-8-dlina-2000-6000-marka-12x18n10t-razmer-8/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-8/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-80-dlina-2000-6000-marka-12x18n10t-razmer-80/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-80/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-2-imp-zerkalo-dlina-6000-marka-aisi-304-08x18n10-razmer-30/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-42-dlina-2000-6000-marka-12x18n10t-razmer-42/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-42/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-130-dlina-2000-6000-marka-20x13-razmer-130/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-130/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-16-dlina-2000-6000-marka-40x13-razmer-16/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-16/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-22-dlina-2000-6000-marka-20x13-razmer-22/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-22/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-105-dlina-2000-6000-marka-12x18n10t-razmer-105/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-105/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-34-dlina-2000-6000-marka-12x18n10t-razmer-34/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-34/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x2-imp-shlif-dlina-6000-marka-aisi-201-razmer-25/ https://ksg-group.ru/p/6000-marka-aisi-201-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-40-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-40/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-70-dlina-2000-6000-marka-40x13-razmer-70/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-70/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-140-din1013-obtochennyj-dlina-6000-marka-aisi-321-12x18n10t-razmer-140/ https://ksg-group.ru/p/6000-marka-aisi-321-12x18n10t-razmer-140/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-22-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-22/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-22/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-30-dlina-2000-6000-marka-20x13-razmer-30/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-60-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-60/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-25-dlina-2000-6000-marka-14x17n2-razmer-25/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-25/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-5-imp-shlif-dlina-6000-marka-aisi-201-razmer-30/ https://ksg-group.ru/p/a-6000-marka-aisi-201-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-35-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-35/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-35/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-160-dlina-2000-6000-marka-30x13-razmer-160/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-160/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-110-dlina-2000-6000-marka-12x18n10t-razmer-110/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-110/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-48-dlina-2000-6000-marka-20x13-razmer-48/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-48/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-60-dlina-2000-6000-marka-14x17n2-razmer-60/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-75-dlina-2000-6000-marka-14x17n2-razmer-75/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-75/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-60-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-60x40x1-5-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-40-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-10-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-10/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-10/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x1-5-imp-shlif-dlina-6000-marka-aisi-430-razmer-25/ https://ksg-group.ru/p/a-6000-marka-aisi-430-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-60-h9-kalibrovannyj-dlina-3000-marka-aisi-316ti-10x17n13m2t-razmer-60/ https://ksg-group.ru/p/marka-aisi-316ti-10x17n13m2t-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-12-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-12/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-12/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-30-h9-kalibrovannyj-dlina-3000-marka-aisi-316ti-10x17n13m2t-razmer-30/ https://ksg-group.ru/p/marka-aisi-316ti-10x17n13m2t-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-75-dlina-2000-6000-marka-40x13-razmer-75/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-75/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-160-dlina-2000-6000-marka-40x13-razmer-160/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-160/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-50-dlina-2000-6000-marka-12x18n10t-razmer-50/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-50/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-50x1-5-imp-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-50/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-26-dlina-2000-6000-marka-12x18n10t-razmer-26/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-26/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-56-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-56/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-56/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-50x25x1-5-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-50/ https://ksg-group.ru/p/00-marka-aisi-304-08x18n10-razmer-50/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-36-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-36/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-36/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-95-dlina-2000-6000-marka-20x13-razmer-95/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-95/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-25-dlina-2000-6000-marka-20x13-razmer-25/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-8-h9-kalibrovannyj-dlina-3000-marka-aisi-316l-03x17n14m3-razmer-8/ https://ksg-group.ru/p/00-marka-aisi-316l-03x17n14m3-razmer-8/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-40x1-imp-shlif-dlina-6000-marka-aisi-201-razmer-40/ https://ksg-group.ru/p/6000-marka-aisi-201-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-110-dlina-2000-6000-marka-95x18-razmer-110/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-110/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-85-dlina-2000-6000-marka-12x18n10t-razmer-85/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-85/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-26-dlina-2000-6000-marka-14x17n2-razmer-26/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-26/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-190-dlina-2000-6000-marka-12x18n10t-razmer-190/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-190/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-8-dlina-2000-6000-marka-20x13-razmer-8/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-8/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-8-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-8/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-8/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-56-dlina-2000-6000-marka-20x13-razmer-56/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-56/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-26-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-26/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-26/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-55-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-55/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-55/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-150-dlina-2000-6000-marka-14x17n2-razmer-150/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-150/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-80x40x3-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-80/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-80/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-14-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-14/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-14/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-25-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-25/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-24-dlina-2000-6000-marka-95x18-razmer-24/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-24/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-5-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-5/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-5/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-130-dlina-2000-6000-marka-12x18n10t-razmer-130/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-130/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-200-dlina-2000-6000-marka-40x13-razmer-200/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-200/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-85-dlina-2000-6000-marka-14x17n2-razmer-85/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-85/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-105-dlina-2000-6000-marka-20x13-razmer-105/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-105/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-45-dlina-2000-6000-marka-95x18-razmer-45/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-45/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-60x40x1-5-shlif-dlina-6000-marka-aisi-201-razmer-60/ https://ksg-group.ru/p/na-6000-marka-aisi-201-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-22-dlina-2000-6000-marka-95x18-razmer-22/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-22/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-50x25x1-5-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-50/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-95-dlina-2000-6000-marka-14x17n2-razmer-95/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-95/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x1-5-imp-zerkalo-dlina-6000-marka-aisi-201-razmer-25/ https://ksg-group.ru/p/na-6000-marka-aisi-201-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-55-dlina-2000-6000-marka-40x13-razmer-55/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-55/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-70-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-70/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-70/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x2-imp-zerkalo-dlina-6000-marka-aisi-201-razmer-25/ https://ksg-group.ru/p/a-6000-marka-aisi-201-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-95-dlina-2000-6000-marka-12x18n10t-razmer-95/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-95/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-12-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-12/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-12/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-14-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-14/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-14/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-50-dlina-2000-6000-marka-30x13-razmer-50/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-50/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-100x50x2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-100/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-100/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-28-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-28/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-28/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-55-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-55/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-55/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-4-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-4/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-4/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-130-dlina-2000-6000-marka-30x13-razmer-130/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-130/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-18-dlina-2000-6000-marka-12x18n10t-razmer-18/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-18/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-28-dlina-2000-6000-marka-20x13-razmer-28/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-28/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-50x2-imp-zerk-dlina-6000-marka-aisi-304-08x18n10-razmer-50/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-180-din1013-obtochennyj-dlina-6000-marka-aisi-304-08x18n10-razmer-180/ https://ksg-group.ru/p/6000-marka-aisi-304-08x18n10-razmer-180/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-290-din1013-obtochennyj-dlina-4000-6000-marka-aisi-321-12x18n10t-razmer-290/ https://ksg-group.ru/p/6000-marka-aisi-321-12x18n10t-razmer-290/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-30-dlina-2000-6000-marka-95x18-razmer-30/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-50-dlina-2000-6000-marka-40x13-razmer-50/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-40-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-40/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-150-dlina-2000-6000-marka-40x13-razmer-150/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-150/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-30x1-2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-30/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-105-dlina-2000-6000-marka-14x17n2-razmer-105/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-105/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-30-dlina-2000-6000-marka-30x13-razmer-30/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-85-dlina-2000-6000-marka-20x13-razmer-85/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-85/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-32-dlina-2000-6000-marka-40x13-razmer-32/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-32/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-70-dlina-2000-6000-marka-95x18-razmer-70/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-70/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-24-dlina-2000-6000-marka-20x13-razmer-24/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-24/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-40x1-5-imp-zerkalo-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-60x2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-40x1-5-imp-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-10-h9-kalibrovannyj-dlina-3000-marka-aisi-316ti-10x17n13m2t-razmer-10/ https://ksg-group.ru/p/marka-aisi-316ti-10x17n13m2t-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-90-dlina-2000-6000-marka-40x13-razmer-90/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-90/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-20-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-20/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-220-dlina-2000-6000-marka-12x18n10t-razmer-220/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-220/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-55-dlina-2000-6000-marka-20x13-razmer-55/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-55/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-32-dlina-2000-6000-marka-20x13-razmer-32/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-32/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-65-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-65/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-65/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-120-dlina-2000-6000-marka-20x13-razmer-120/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-120/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-20-dlina-2000-6000-marka-20x13-razmer-20/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-36-dlina-2000-6000-marka-40x13-razmer-36/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-36/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-24-dlina-2000-6000-marka-12x18n10t-razmer-24/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-24/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-30-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-30/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-30/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-24-dlina-2000-6000-marka-40x13-razmer-24/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-24/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-45-dlina-2000-6000-marka-20x13-razmer-45/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-45/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-180-dlina-2000-6000-marka-30x13-razmer-180/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-180/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-40x1-5-imp-shlif-dlina-6000-marka-aisi-430-razmer-40/ https://ksg-group.ru/p/a-6000-marka-aisi-430-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-200-din1013-obtochennyj-dlina-4000-6000-marka-aisi-304-08x18n10-razmer-200/ https://ksg-group.ru/p/0-6000-marka-aisi-304-08x18n10-razmer-200/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-40x20x1-5-shlif-dlina-6000-marka-aisi-430-razmer-40/ https://ksg-group.ru/p/na-6000-marka-aisi-430-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-36-dlina-2000-6000-marka-20x13-razmer-36/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-36/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-28-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-28/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-28/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-105-dlina-2000-6000-marka-40x13-razmer-105/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-105/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-160-din1013-obtochennyj-dlina-6000-marka-aisi-431-14x17n2-razmer-160/ https://ksg-group.ru/p/6000-marka-aisi-431-14x17n2-razmer-160/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-60x30x2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-60x40x1-5-zerkalo-dlina-6000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-50-dlina-2000-6000-marka-14x17n2-razmer-50/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-50/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-14-dlina-2000-6000-marka-14x17n2-razmer-14/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-14/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-70-dlina-2000-6000-marka-14x17n2-razmer-70/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-70/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-22-dlina-2000-6000-marka-30x13-razmer-22/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-22/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-28-dlina-2000-6000-marka-40x13-razmer-28/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-28/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-20x1-2-imp-shlif-dlina-6000-marka-aisi-304-08x18n10-razmer-20/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-110-dlina-2000-6000-marka-20x13-razmer-110/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-110/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-25-dlina-2000-6000-marka-12x18n10t-razmer-25/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-85-dlina-2000-6000-marka-40x13-razmer-85/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-85/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-38-dlina-2000-6000-marka-30x13-razmer-38/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-38/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-90-dlina-2000-6000-marka-20x13-razmer-90/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-90/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-60-dlina-2000-6000-marka-30x13-razmer-60/ https://ksg-group.ru/p/2000-6000-marka-30x13-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-180-dlina-2000-6000-marka-20x13-razmer-180/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-180/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-13-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-13/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-13/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-12-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-12/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-12/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-80-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-80/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-80/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-32-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-32/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-32/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-60x3-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-60/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-16-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-16/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-16/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-22-dlina-2000-6000-marka-14x17n2-razmer-22/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-22/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-20x1-5-imp-zerkalo-dlina-6000-marka-aisi-304-08x18n10-razmer-20/ https://ksg-group.ru/p/0-marka-aisi-304-08x18n10-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-40-dlina-2000-6000-marka-12x18n10t-razmer-40/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-22-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-22/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-22/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-38-dlina-2000-6000-marka-20x13-razmer-38/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-38/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-30-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-30/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-30/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-pryamougolnye-40x20x1-5-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-40/ https://ksg-group.ru/p/00-marka-aisi-304-08x18n10-razmer-40/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-65-dlina-2000-6000-marka-12x18n10t-razmer-65/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-65/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-10-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-10/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-22-dlina-2000-6000-marka-40x13-razmer-22/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-22/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-45-h9-kalibrovannyj-dlina-3000-marka-aisi-431-14x17n2-razmer-45/ https://ksg-group.ru/p/3000-marka-aisi-431-14x17n2-razmer-45/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-110-din1013-obtochennyj-dlina-6000-marka-aisi-304-08x18n10-razmer-110/ https://ksg-group.ru/p/6000-marka-aisi-304-08x18n10-razmer-110/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-14-dlina-2000-6000-marka-12x18n10t-razmer-14/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-14/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-30-dlina-2000-6000-marka-12x18n10t-razmer-30/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-30/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-25x1-2-imp-shlif-dlina-6000-marka-aisi-430-razmer-25/ https://ksg-group.ru/p/a-6000-marka-aisi-430-razmer-25/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-60-dlina-2000-6000-marka-40x13-razmer-60/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-60/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-26-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-26/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-26/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-10-dlina-2000-6000-marka-14x17n2-razmer-10/ https://ksg-group.ru/p/0-6000-marka-14x17n2-razmer-10/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-75-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-75/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-75/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-20-dlina-2000-6000-marka-40x13-razmer-20/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-15-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-15/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-15/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-150-din1013-obtochennyj-dlina-6000-marka-aisi-431-14x17n2-razmer-150/ https://ksg-group.ru/p/6000-marka-aisi-431-14x17n2-razmer-150/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-150-dlina-2000-6000-marka-20x13-razmer-150/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-150/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-14-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-14/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-14/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-20-dlina-2000-6000-marka-12x18n10t-razmer-20/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-20/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-36-dlina-2000-6000-marka-95x18-razmer-36/ https://ksg-group.ru/p/2000-6000-marka-95x18-razmer-36/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-8-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-8/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-8/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-5-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-5/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-5/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-24-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-24/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-24/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-6-h9-kalibrovannyj-dlina-3000-marka-aisi-321-12x18n10t-razmer-6/ https://ksg-group.ru/p/000-marka-aisi-321-12x18n10t-razmer-6/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-45-dlina-2000-6000-marka-12x18n10t-razmer-45/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-45/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-160-dlina-2000-6000-marka-20x13-razmer-160/ https://ksg-group.ru/p/2000-6000-marka-20x13-razmer-160/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-32-h11-kalibrovannyj-marka-12x18n10t-aisi-321-razmer-32/ https://ksg-group.ru/p/ka-12x18n10t-aisi-321-razmer-32/
+	Redirect 301 /p/stal-sort-nerzh-nikel-shestigrannik-xt-24-h11-kalibrovannyj-marka-aisi-304-08x18n10-razmer-24/ https://ksg-group.ru/p/rka-aisi-304-08x18n10-razmer-24/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-55-dlina-2000-6000-marka-12x18n10t-razmer-55/ https://ksg-group.ru/p/6000-marka-12x18n10t-razmer-55/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-100-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-100/ https://ksg-group.ru/p/000-marka-aisi-304-08x18n10-razmer-100/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-40x1-5-imp-shlif240-dlina-6000-marka-aisi-201-razmer-40/ https://ksg-group.ru/p/na-6000-marka-aisi-201-razmer-40/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-esv-kvadratnye-80x2-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-80/ https://ksg-group.ru/p/marka-aisi-304-08x18n10-razmer-80/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-xt-18-h9-kalibrovannyj-dlina-3000-marka-aisi-201-12x15g9nd-razmer-18/ https://ksg-group.ru/p/000-marka-aisi-201-12x15g9nd-razmer-18/
+	Redirect 301 /p/stal-nerzhaveyushhaya-nikelsoderzhashhaya-krug-gk-42-h9-kalibrovannyj-dlina-3000-marka-aisi-304-08x18n10-razmer-42/ https://ksg-group.ru/p/3000-marka-aisi-304-08x18n10-razmer-42/
+	Redirect 301 /p/stal-nerzhaveyushhaya-beznikelevaya-zharoprochnaya-krug-45-dlina-2000-6000-marka-40x13-razmer-45/ https://ksg-group.ru/p/2000-6000-marka-40x13-razmer-45/
+	Redirect 301 /p/profnastil-okrashennyj-0-45x1000x2000-shokoladno-korichnevyj-dlina-2000-marka-s21-razmer-045/ https://ksg-group.ru/p/lina-2000-marka-s21-razmer-045/
+	Redirect 301 /p/profnastil-okrashennyj-0-45x1100x2000-shokoladno-korichnevyj-dlina-2000-marka-s20-razmer-045/ https://ksg-group.ru/p/lina-2000-marka-s20-razmer-045/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-42-4x2-5-w2-dl-60-m-dlina-6000-marka-aisi-304-08x18n10-razmer-424/ https://ksg-group.ru/p/a-aisi-304-08x18n10-razmer-424/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-38-1x1-5-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-381/ https://ksg-group.ru/p/ka-aisi-304-08x18n10-razmer-381/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-60-3x1-5-imp-zerkalo-dlina-6000-marka-aisi-304-08x18n10-razmer-603/ https://ksg-group.ru/p/ka-aisi-304-08x18n10-razmer-603/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-139-7x4-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-1397/ https://ksg-group.ru/p/a-aisi-304-08x18n10-razmer-1397/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-101-6x3-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-1016/ https://ksg-group.ru/p/a-aisi-304-08x18n10-razmer-1016/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-63-5x1-5-imp-zerkalo-dlina-6000-marka-aisi-304-08x18n10-razmer-635/ https://ksg-group.ru/p/ka-aisi-304-08x18n10-razmer-635/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-48-3x2-6-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-483/ https://ksg-group.ru/p/ka-aisi-304-08x18n10-razmer-483/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-219-1x2-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-2191/ https://ksg-group.ru/p/a-aisi-304-08x18n10-razmer-2191/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-42-4x2-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-424/ https://ksg-group.ru/p/a-aisi-304-08x18n10-razmer-424/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-42-4x3-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-424/ https://ksg-group.ru/p/a-aisi-304-08x18n10-razmer-424/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-76-1x1-5-imp-zerkalo-dlina-6000-marka-aisi-304-08x18n10-razmer-761/ https://ksg-group.ru/p/ka-aisi-304-08x18n10-razmer-761/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-21-3x1-5-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-213/ https://ksg-group.ru/p/ka-aisi-304-08x18n10-razmer-213/
+	Redirect 301 /p/truby-nerzh-elektrosvarnye-219-1x3-imp-matovaya-dlina-6000-marka-aisi-304-08x18n10-razmer-2191/ https://ksg-group.ru/p/a-aisi-304-08x18n10-razmer-2191/
+	
+	RewriteRule ^index\.php$ - [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+Header set Cache-Control "max-age=600, public"
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|webp|woff)$">
+	Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+# BEGIN WP-Optimize Gzip compression
+<IfModule mod_filter.c>
+	<IfModule mod_deflate.c>
+# Compress HTML, CSS, JavaScript, Text, XML and fonts
+		AddType application/vnd.ms-fontobject .eot
+		AddType font/ttf .ttf
+		AddType font/otf .otf
+		AddType font/x-woff .woff
+		AddType image/svg+xml .svg
+		
+		AddOutputFilterByType DEFLATE application/javascript
+		AddOutputFilterByType DEFLATE application/rss+xml
+		AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+		AddOutputFilterByType DEFLATE application/x-font
+		AddOutputFilterByType DEFLATE application/x-font-opentype
+		AddOutputFilterByType DEFLATE application/x-font-otf
+		AddOutputFilterByType DEFLATE application/x-font-truetype
+		AddOutputFilterByType DEFLATE application/x-font-ttf
+		AddOutputFilterByType DEFLATE application/x-font-woff
+		AddOutputFilterByType DEFLATE application/x-javascript
+		AddOutputFilterByType DEFLATE application/xhtml+xml
+		AddOutputFilterByType DEFLATE application/xml
+		AddOutputFilterByType DEFLATE font/opentype
+		AddOutputFilterByType DEFLATE font/otf
+		AddOutputFilterByType DEFLATE font/ttf
+		AddOutputFilterByType DEFLATE font/woff
+		AddOutputFilterByType DEFLATE image/svg+xml
+		AddOutputFilterByType DEFLATE image/x-icon
+		AddOutputFilterByType DEFLATE text/css
+		AddOutputFilterByType DEFLATE text/html
+		AddOutputFilterByType DEFLATE text/javascript
+		AddOutputFilterByType DEFLATE text/plain
+		AddOutputFilterByType DEFLATE text/xml
+		
+# Remove browser bugs (only needed for really old browsers)
+		BrowserMatch ^Mozilla/4 gzip-only-text/html
+		BrowserMatch ^Mozilla/4\.0[678] no-gzip
+		BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+		<IfModule mod_headers.c>
+			Header append Vary User-Agent
+		</IfModule>
+	</IfModule>
+</IfModule>
+# END WP-Optimize Gzip compression

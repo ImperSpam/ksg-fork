@@ -1,0 +1,25 @@
+.coop_text {
+	display: none;
+	padding-top:0px;
+}
+.ksg-cooperation__text li {
+	display: inline-block;
+	width: 100%;
+	font-size: 16px;
+	color: #1c1c1c;
+	font-family: 'PT Sans', sans-serif;
+	margin-bottom: 18px;
+}
+
+.hidden{
+	display: none !important;
+}
+
+#header .top_menu ul li span{
+	color: #f7f7f7;
+	font-weight: normal;
+    line-height: 1;
+    font-family: "PT Sans";
+	display: block;
+    font-size: 14px;
+}
