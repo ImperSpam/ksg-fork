@@ -10,7 +10,7 @@
             <div class="ksg-footer-about__text">
             <p class="rekvizit"><span class="strong">Реквизиты:</span><br>
 			ООО «МОНОЛИТСТРОЙ»<br>
-			Инн: 7743935769<br>
+			ИНН: 7743935769<br>
 			ОГРН: 1147746911300<br>
 			КПП: 774301001<br>
 			</p>

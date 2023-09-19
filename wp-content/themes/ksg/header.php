@@ -88,9 +88,19 @@
 
       <!-- Logo -->
       <div class="logo">
+        <?php
+        if (get_page_uri() == 'glavnaya'):
+        ?>
+        <div class="header-logo">
+          <img alt="alt" src="<?php bloginfo('template_url'); ?>/images/ksg/logo3fix_4727027.png" class="header-logo__img">
+        </div>
+        <?php else: ?>
         <a href="/" class="header-logo">
-          <img alt="logo" src="<?php bloginfo('template_url'); ?>/images/ksg/logo3fix_4727027.webp" class="header-logo__img">
+          <img alt="alt" src="<?php bloginfo('template_url'); ?>/images/ksg/logo3fix_4727027.png" class="header-logo__img">
         </a>
+        <?php
+        endif;
+        ?>
       </div>
 
       <div id="nav" class="yamm">
@@ -99,9 +109,6 @@
         <?php 
           $categories = get_terms( array(
             'taxonomy' => 'product_cat',
-            // 'orderby' => 'term_id',
-            // 'order' => 'DESC',
-            // 'number' => '7',
             'hide_empty' => false,
           ) );
          ?>
@@ -117,13 +124,7 @@
                         <?php if($category->term_id == $sub_category->parent) { ?>
                      
                      <a href="<?= get_term_link($sub_category); ?>"><?= $sub_category->name ?></a>
-                        <?php /*  <ul>
-                            <?php foreach ($categories as $sub_sub_category) { ?>
-                            <?php if($sub_category->term_id == $sub_sub_category->parent) { ?>
-                            <li><a href="<?= get_term_link($sub_sub_category); ?>"><?= $sub_sub_category->name ?></a></li>
-                            <?php } ?>
-                            <?php } ?>
-                          </ul> <?php */ ?>
+
                        
                         <?php } ?>
                         <?php } ?>
@@ -139,35 +140,6 @@
       </div>
       <div class="right_menu">
         <ul>
-          <?php/* if ( is_active_sidebar( 'cart' ) && !is_cart() && !is_checkout()) : ?>
-          <!--<li class="menubtn"><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/ksg/icons/cart.png"></span></a>
-            <div class="menu_c cart_menu">
-                <?php dynamic_sidebar( 'cart' ); ?>
-            </div>
-          </li>
-          <?php endif; ?>
-          <li class="menubtn"><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/ksg/icons/portrait.png"></a>
-            <div class="menu_c acc_menu">
-            <?php if ( !is_user_logged_in() ) { ?>
-              <div class="menu_title clearfix">
-                <h4>Аккаунт</h4>
-                <a href="/my-account/?action=register" class="sign_up">Регистрация</a> </div>
-              <form action="/my-account/" class="login_frm" method="post">
-                <input type="text" class="txtbox" placeholder="Логин" name="username" value="<?php echo ( ! empty( $_POST['username'] ) ) ? esc_attr( $_POST['username'] ) : ''; ?>">
-                <input type="password" class="txtbox" placeholder="Пароль" name="password">
-                <div class="remember">
-                  <input type="checkbox" name="rememberme" class="chkbox icheckbox_minimal"/>
-                  Запомнить меня</div>
-                <input type="submit" class="signin_btn btn_c" value="Войти">
-              </form>
-              <div class="forgot clearfix"> <span>Забыли: </span> <a href="<?php echo esc_url( wp_lostpassword_url() ); ?>">Пароль</a> <a href="<?php echo esc_url( wp_lostpassword_url() ); ?>" class="name">Логин</a> </div>
-              <?php } else { ?>
-                <div class="menu_title clearfix">
-                  <a href="/my-account/">Профиль</a>
-                </div>
-              <?php } ?>
-            </div>
-          </li>--> <?php */ ?>
           <li class="menubtn">
             <div class="menu_c search_menu">
               <form action="<?php bloginfo( 'url' ); ?>" class="search_box" method="get">
@@ -183,3 +155,49 @@
   </div>
 </div>
 
+<div class="header-mobile">
+  <div class="container header-mobile__c">
+    <div class="logo-m">
+          <?php
+          if (get_page_uri() == 'glavnaya'):
+          ?>
+          <div class="header-logo-m">
+            <img alt="alt" src="<?php bloginfo('template_url'); ?>/images/ksg/logo3fix_4727027.png" style="height: 35px;" class="header-logo__img">
+          </div>
+          <?php else: ?>
+          <a href="/" class="header-logo-m">
+            <img alt="alt" src="<?php bloginfo('template_url'); ?>/images/ksg/logo3fix_4727027.png" style="height: 35px;" class="header-logo__img">
+          </a>
+          <?php
+          endif;
+          ?>
+    </div>
+   <? echo cart_link(); ?>
+   <button type="button" class="navbar-toggle burger-tgl"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+</div>
+
+<div class="burger-m" style="display: none;">
+<div class="burger-close"></div>
+  <div class="container">
+          <div class="burger-m__contacts">
+          <li class="header_phone"><p style="display:block;"><span class="fa fa-phone"></span><a style="display:inline-block;" href="tel:+74956649014">+7 (495) 664-90-14</a></p><p style="display:block;"><span class="fa fa-phone"></span><a style="display:inline-block;" href="tel:+79266074688">+7 (926)-607-46-88</a></p></li>
+  <li><a style="display: flex; align-items: center; justify-content: center; margin-top: 15px;" href="mailto:info@ksg-group.ru"><img src="<?php bloginfo('template_url'); ?>/images/ksg/envelop.gif" height="20" >&nbsp;<p>info@ksg-group.ru</p></a>
+          </div>
+          
+          <ul class="burger-menu">
+          <?php $m2 = wp_get_nav_menu_items(15);
+                if ($m2):
+                    foreach($m2 as $itm):
+                ?>
+                <li><a href="<?php echo $itm->url ?>"><?php echo $itm->title ?></a></li>
+                <?php
+                    endforeach;
+                endif;?>
+                <?php foreach ($categories as $category): ?>
+            <?php if($category->parent == 0):?>
+            <li class=""><a href="/c/<?php echo $category->slug;?>/"><?php echo $category->name ?></a>
+            <?php endif; endforeach;  ?>
+          </ul>
+
+  </div>
