@@ -104,7 +104,6 @@
       </div>
 
       <div id="nav" class="yamm">
-        <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         <nav id="navbar-collapse-1" class="navbar-collapse collapse">
         <?php 
           $categories = get_terms( array(
